@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "touchdesigner-wiki": {
+      "command": "node",
+      "args": ["/Users/konraddiesch/Code/touchdesigner-wiki-mcp/build/index.js"]
+    }
+  }
+}
