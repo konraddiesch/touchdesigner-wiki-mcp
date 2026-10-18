@@ -22,14 +22,14 @@ npm run build
 
 ### Mit Claude Code
 
-Füge den Server zu deiner Claude Code Konfiguration hinzu (`~/.claude/claude_code_config.json`):
+Füge den Server zu deiner Claude Code Konfiguration hinzu (`~/.claude.json`) — oder nutze die `.mcp.json` im Repo-Root, die den Server bereits registriert:
 
 ```json
 {
   "mcpServers": {
     "touchdesigner-wiki": {
       "command": "node",
-      "args": ["/Users/konraddiesch/Code/touchdesigner-wiki-mcp/build/index.js"]
+      "args": ["${HOME}/Code/touchdesigner-wiki-mcp/build/index.js"]
     }
   }
 }

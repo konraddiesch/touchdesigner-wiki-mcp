@@ -2,7 +2,7 @@
   "mcpServers": {
     "touchdesigner-wiki": {
       "command": "node",
-      "args": ["/Users/konraddiesch/Code/touchdesigner-wiki-mcp/build/index.js"]
+      "args": ["${HOME}/Code/touchdesigner-wiki-mcp/build/index.js"]
     }
   }
 }
